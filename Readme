@@ -128,7 +128,7 @@ Ecommerce-Sales-Analytics/
 ├── Ecommerce_Sales_Project.pbix
 ├── README.md
 └── screenshots/
-    └── dashboard-preview.png   # Optional: add a screenshot of the dashboard
+    └── dashboard-preview.png 
 ```
 
 ## Future Improvements
@@ -139,11 +139,6 @@ Ecommerce-Sales-Analytics/
 -   Document the data source, reporting period, and data-cleaning steps.
 -   Add definitions for each KPI and DAX measure.
 -   Review accessibility, number formatting, and mobile layout.
-
-## Author
-
-**Ashutosh Yawale**\
-Aspiring Data Analyst \| Power BI \| SQL \| Python \| Excel
 
 ------------------------------------------------------------------------
 
