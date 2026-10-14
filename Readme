@@ -1,0 +1,151 @@
+# E-Commerce Sales Analytics Dashboard
+
+> **Power BI \| Sales Performance \| Profitability \| Customer & Product
+> Analysis**
+
+## Project Overview
+
+This project is an interactive **E-Commerce Sales Analytics Dashboard**
+built in Microsoft Power BI. It brings sales, profit, order quantity,
+profit margin, product performance, customer geography, and shipping
+information into one report to support business performance monitoring.
+
+The dashboard is designed to help users explore year-to-date (YTD)
+performance, compare it with the previous year, and review monthly
+trends. Interactive filters allow the report to be explored by customer
+segment and the visuals support comparisons across categories, products,
+regions, and shipping types.
+
+## Business Objectives
+
+-   Monitor sales, profit, quantity, and profit-margin performance.
+-   Compare year-to-date results with prior-year performance.
+-   Identify monthly trends and changes in business performance.
+-   Compare sales contribution across product categories and individual
+    products.
+-   Understand sales distribution across customer regions and shipping
+    types.
+-   Enable segment-based analysis through interactive filtering.
+
+## Dashboard Components
+
+### 1. KPI Summary
+
+The report includes KPI cards for: - **YTD Sales** - **Year-over-Year
+(YoY) Sales** - **YTD Profit** - **YoY Profit** - **YTD Quantity** -
+**YoY Quantity** - **YTD Profit Margin** - **YoY Profit Margin**
+
+These indicators provide a quick view of current performance and
+year-over-year movement.
+
+### 2. Monthly Trends
+
+Monthly charts track: - Sales per order - Profit per order - Order
+quantity - Profit margin
+
+These views help reveal changes over time and make it easier to spot
+periods that may need further investigation.
+
+### 3. Category Performance
+
+A category-level comparison table brings together YTD sales,
+previous-year-to-date sales, YoY sales change, and a trend indicator.
+This supports comparison across product categories.
+
+### 4. Product Performance
+
+Product-level bar charts compare YTD sales across products, helping
+users investigate which products contribute most to sales.
+
+### 5. Geographic Analysis
+
+A map visualizes sales by customer region, supporting a geographic view
+of sales distribution and year-over-year performance.
+
+### 6. Shipping Analysis
+
+A donut chart displays sales distribution by shipping type, making it
+possible to compare the contribution of different shipping options.
+
+### 7. Customer Segment Filter
+
+An interactive customer-segment slicer allows the report to be filtered
+to explore performance for different customer groups.
+
+## Tools & Techniques
+
+-   **Microsoft Power BI** --- dashboard development and interactive
+    visualizations
+-   **DAX measures** --- YTD, prior-year-to-date, YoY comparisons, and
+    performance indicators
+-   **Data modeling** --- calendar-based time analysis and
+    business-field relationships
+-   **Data visualization** --- KPI cards, area charts, bar charts, a
+    category comparison table, map, and donut charts
+-   **Interactive analysis** --- slicers and cross-filtering between
+    visuals
+
+## Key Analytical Questions
+
+This dashboard is structured to answer questions such as:
+
+1.  How are sales, profit, quantity, and profit margin performing year
+    to date?
+2.  How does current performance compare with the previous year?
+3.  How do sales and profitability change month by month?
+4.  Which product categories and products contribute most to sales?
+5.  How is sales performance distributed across customer regions?
+6.  What share of sales comes from each shipping type?
+7.  How does performance vary by customer segment?
+
+## Business Value
+
+The report consolidates multiple performance indicators into a single
+interactive view. It can help business users monitor trends, compare
+product and category performance, explore geographic and shipping mix,
+and identify areas that warrant deeper analysis.
+
+**Note:** Specific business conclusions should be drawn from the figures
+displayed in the Power BI report. This documentation describes the
+report structure and analytical capabilities; it does not claim
+numerical results that have not been independently validated.
+
+## How to Use
+
+1.  Download `Ecommerce_Sales_Project.pbix` from this repository.
+2.  Open it using Microsoft Power BI Desktop.
+3.  Allow the report to load, then use the customer-segment slicer and
+    visual interactions to explore the data.
+4.  Select categories, products, regions, or shipping types in the
+    visuals to investigate related performance.
+5.  Review YTD and YoY indicators alongside monthly trends before
+    drawing conclusions.
+
+## Repository Contents
+
+``` text
+Ecommerce-Sales-Analytics/
+├── Ecommerce_Sales_Project.pbix
+├── README.md
+└── screenshots/
+    └── dashboard-preview.png   # Optional: add a screenshot of the dashboard
+```
+
+## Future Improvements
+
+-   Add a short executive summary with validated findings and quantified
+    recommendations.
+-   Include a dashboard screenshot or GIF in the repository.
+-   Document the data source, reporting period, and data-cleaning steps.
+-   Add definitions for each KPI and DAX measure.
+-   Review accessibility, number formatting, and mobile layout.
+
+## Author
+
+**Ashutosh Yawale**\
+Aspiring Data Analyst \| Power BI \| SQL \| Python \| Excel
+
+------------------------------------------------------------------------
+
+*This project was created for business intelligence and data analytics
+portfolio purposes.
