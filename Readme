@@ -1,146 +1,76 @@
-# E-Commerce Sales Analytics Dashboard
+E-Commerce Sales Analytics Dashboard
 
-> **Power BI \| Sales Performance \| Profitability \| Customer & Product
-> Analysis**
+Project Overview
 
-## Project Overview
+This project is an interactive E-Commerce Sales Analytics Dashboard built using Microsoft Power BI. It analyzes sales, profit, quantity, product performance, customer segments, regional sales, and shipping trends to support data-driven business decisions.
 
-This project is an interactive **E-Commerce Sales Analytics Dashboard**
-built in Microsoft Power BI. It brings sales, profit, order quantity,
-profit margin, product performance, customer geography, and shipping
-information into one report to support business performance monitoring.
+Business Objectives
 
-The dashboard is designed to help users explore year-to-date (YTD)
-performance, compare it with the previous year, and review monthly
-trends. Interactive filters allow the report to be explored by customer
-segment and the visuals support comparisons across categories, products,
-regions, and shipping types.
+* Monitor sales, profit, quantity, and profit margin.
+* Compare current year-to-date performance with the previous year.
+* Analyze monthly sales and profit trends.
+* Identify top-performing product categories and products.
+* Understand sales distribution across customer regions.
+* Analyze sales contribution by shipping type.
+* Compare performance across customer segments.
 
-## Business Objectives
+Dashboard Features
 
--   Monitor sales, profit, quantity, and profit-margin performance.
--   Compare year-to-date results with prior-year performance.
--   Identify monthly trends and changes in business performance.
--   Compare sales contribution across product categories and individual
-    products.
--   Understand sales distribution across customer regions and shipping
-    types.
--   Enable segment-based analysis through interactive filtering.
+KPI Summary
 
-## Dashboard Components
+The dashboard includes key performance indicators for YTD Sales, YoY Sales, YTD Profit, YoY Profit, YTD Quantity, YoY Quantity, YTD Profit Margin, and YoY Profit Margin.
 
-### 1. KPI Summary
+Monthly Trends
 
-The report includes KPI cards for: - **YTD Sales** - **Year-over-Year
-(YoY) Sales** - **YTD Profit** - **YoY Profit** - **YTD Quantity** -
-**YoY Quantity** - **YTD Profit Margin** - **YoY Profit Margin**
+Monthly charts help analyze sales per order, profit per order, order quantity, and profit margin over time.
 
-These indicators provide a quick view of current performance and
-year-over-year movement.
+Category Performance
 
-### 2. Monthly Trends
+A comparison table displays category-level sales performance, previous-year sales, year-over-year changes, and trends.
 
-Monthly charts track: - Sales per order - Profit per order - Order
-quantity - Profit margin
+Product Performance
 
-These views help reveal changes over time and make it easier to spot
-periods that may need further investigation.
+Product-level charts help identify products contributing most to sales.
 
-### 3. Category Performance
+Geographic Analysis
 
-A category-level comparison table brings together YTD sales,
-previous-year-to-date sales, YoY sales change, and a trend indicator.
-This supports comparison across product categories.
+A map visualizes sales distribution across customer regions and supports geographic performance analysis.
 
-### 4. Product Performance
+Shipping Analysis
 
-Product-level bar charts compare YTD sales across products, helping
-users investigate which products contribute most to sales.
+A donut chart shows the distribution of sales across different shipping types.
 
-### 5. Geographic Analysis
+Customer Segment Analysis
 
-A map visualizes sales by customer region, supporting a geographic view
-of sales distribution and year-over-year performance.
+An interactive slicer allows users to filter the dashboard by customer segment.
 
-### 6. Shipping Analysis
+Tools and Technologies
 
-A donut chart displays sales distribution by shipping type, making it
-possible to compare the contribution of different shipping options.
+* Microsoft Power BI
+* DAX
+* Data Modeling
+* Data Visualization
+* Interactive Dashboards
+* Business Intelligence
 
-### 7. Customer Segment Filter
+Business Questions
 
-An interactive customer-segment slicer allows the report to be filtered
-to explore performance for different customer groups.
+1. How are sales and profits performing compared with the previous year?
+2. Which months show the strongest sales and profit performance?
+3. Which product categories generate the highest sales?
+4. Which products contribute most to overall sales?
+5. How does sales performance vary across regions?
+6. What is the sales distribution across shipping types?
+7. How does performance differ between customer segments?
 
-## Tools & Techniques
+Business Value
 
--   **Microsoft Power BI** --- dashboard development and interactive
-    visualizations
--   **DAX measures** --- YTD, prior-year-to-date, YoY comparisons, and
-    performance indicators
--   **Data modeling** --- calendar-based time analysis and
-    business-field relationships
--   **Data visualization** --- KPI cards, area charts, bar charts, a
-    category comparison table, map, and donut charts
--   **Interactive analysis** --- slicers and cross-filtering between
-    visuals
+The dashboard consolidates key business metrics into a single interactive report, helping users monitor performance, compare sales trends, evaluate products and categories, and identify areas requiring further analysis.
 
-## Key Analytical Questions
+How to Use
 
-This dashboard is structured to answer questions such as:
+1. Download the Power BI project file from this repository.
+2. Open it in Microsoft Power BI Desktop.
+3. Use the available filters and visual interactions to explore the data.
+4. Compare KPI values and monthly trends to understand business performance. 
 
-1.  How are sales, profit, quantity, and profit margin performing year
-    to date?
-2.  How does current performance compare with the previous year?
-3.  How do sales and profitability change month by month?
-4.  Which product categories and products contribute most to sales?
-5.  How is sales performance distributed across customer regions?
-6.  What share of sales comes from each shipping type?
-7.  How does performance vary by customer segment?
-
-## Business Value
-
-The report consolidates multiple performance indicators into a single
-interactive view. It can help business users monitor trends, compare
-product and category performance, explore geographic and shipping mix,
-and identify areas that warrant deeper analysis.
-
-**Note:** Specific business conclusions should be drawn from the figures
-displayed in the Power BI report. This documentation describes the
-report structure and analytical capabilities; it does not claim
-numerical results that have not been independently validated.
-
-## How to Use
-
-1.  Download `Ecommerce_Sales_Project.pbix` from this repository.
-2.  Open it using Microsoft Power BI Desktop.
-3.  Allow the report to load, then use the customer-segment slicer and
-    visual interactions to explore the data.
-4.  Select categories, products, regions, or shipping types in the
-    visuals to investigate related performance.
-5.  Review YTD and YoY indicators alongside monthly trends before
-    drawing conclusions.
-
-## Repository Contents
-
-``` text
-Ecommerce-Sales-Analytics/
-├── Ecommerce_Sales_Project.pbix
-├── README.md
-└── screenshots/
-    └── dashboard-preview.png 
-```
-
-## Future Improvements
-
--   Add a short executive summary with validated findings and quantified
-    recommendations.
--   Include a dashboard screenshot or GIF in the repository.
--   Document the data source, reporting period, and data-cleaning steps.
--   Add definitions for each KPI and DAX measure.
--   Review accessibility, number formatting, and mobile layout.
-
-------------------------------------------------------------------------
-
-*This project was created for business intelligence and data analytics
-portfolio purposes.
